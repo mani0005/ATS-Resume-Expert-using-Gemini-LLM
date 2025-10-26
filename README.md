@@ -1,21 +1,21 @@
-# 🧠 ATS Resume Expert using Gemini LLM
+# ATS Resume Expert using Gemini LLM
 
 An **AI-powered Applicant Tracking System (ATS)** built with **Streamlit** and **Google’s Gemini LLM**, designed to evaluate resumes against job descriptions.  
 It provides **ATS score percentages**, identifies **missing keywords**, and offers **HR-style feedback** — helping candidates improve their resumes and recruiters make better shortlisting decisions.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 📄 **Upload Resume (PDF)** and analyze it instantly.  
-- 🧠 **Gemini LLM-powered evaluation** for intelligent, context-aware analysis.  
-- 🎯 **ATS-style match percentage** with missing keywords and feedback.  
-- 👩‍💼 **HR-style qualitative review** highlighting strengths and weaknesses.  
-- 🌐 Simple, interactive **Streamlit web interface**.
+- **Upload Resume (PDF)** and analyze it instantly.  
+- **Gemini LLM-powered evaluation** for intelligent, context-aware analysis.  
+- **ATS-style match percentage** with missing keywords and feedback.  
+- **HR-style qualitative review** highlighting strengths and weaknesses.  
+-   Simple, interactive **Streamlit web interface**.
 
 ---
 
-## 🧩 Tech Stack
+## Tech Stack
 
 | Component | Technology |
 |------------|-------------|
@@ -27,7 +27,7 @@ It provides **ATS score percentages**, identifies **missing keywords**, and offe
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ATS-Resume-Expert/
 │
