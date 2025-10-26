@@ -73,6 +73,11 @@ ATS-Resume-Expert/
 **pdf2image not working?**
 - Install Poppler (required by pdf2image):
 - >>Windows: Download from Poppler for Windows
+  >> - DOWNLOAD: https://github.com/oschwartz10612/poppler-windows.git
+  >> - Copy the library,share files and go to C drive in programing files(x86)
+  >> - Create new poppler file and paste the 2 files
+  >> - Now go to library go to Bin and NOW COPY THE ENTIRE PATH
+  >> - Open environment variables --> go to system variables --> path --> edit --> ADD the copied path --> SAVE
 - >>macOS: brew install poppler
 - >>Linux: sudo apt-get install poppler-utils
 
