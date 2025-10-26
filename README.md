@@ -1,7 +1,6 @@
 # ATS Resume Expert using Gemini LLM
 
-An **AI-powered Applicant Tracking System (ATS)** built with **Streamlit** and **Google’s Gemini LLM**, designed to evaluate resumes against job descriptions.  
-It provides **ATS score percentages**, identifies **missing keywords**, and offers **HR-style feedback** — helping candidates improve their resumes and recruiters make better shortlisting decisions.
+An **AI-powered Applicant Tracking System (ATS)** built with **Streamlit** and **Google’s Gemini LLM**, designed to evaluate resumes against job descriptions. It provides **ATS score percentages**, identifies **missing keywords**, and offers **HR-style feedback** — helping candidates improve their resumes and recruiters make better shortlisting decisions.
 
 ---
 
@@ -39,10 +38,10 @@ ATS-Resume-Expert/
 ---
 
 ## Requirements
-streamlit
-google-generativeai
-python-dotenv
-pdf2image
+- streamlit
+- google-generativeai
+- python-dotenv
+- pdf2image
 
 ---
 
@@ -60,25 +59,25 @@ pdf2image
 ---
 
 ### Required terminal prompts:
-(Download the latest version of anaconda)
->>conda create -p venv python==3.10 -y
->>conda activate venv/
->>pip install -r requirements.txt
-get your google_api_key from (https://aistudio.google.com/)
+- (Download the latest version of anaconda)
+- >>conda create -p venv python==3.10 -y
+- >>conda activate venv/
+- >>pip install -r requirements.txt
+- get your google_api_key from (https://aistudio.google.com/)
 ## RUN THE APPLICATION USING:
-streamlit run app.py
+- streamlit run app.py
 
 ---
 
 ## Troubleshooting
 **pdf2image not working?**
-Install Poppler (required by pdf2image):
->>Windows: Download from Poppler for Windows
->>macOS: brew install poppler
->>Linux: sudo apt-get install poppler-utils
+- Install Poppler (required by pdf2image):
+- >>Windows: Download from Poppler for Windows
+- >>macOS: brew install poppler
+- >>Linux: sudo apt-get install poppler-utils
 
 
 ## CLONE
 ```bash
->>git clone https://github.com/mani0005/ATS-Resume-Expert.git
->>cd ATS-Resume-Expert
+- >>git clone https://github.com/mani0005/ATS-Resume-Expert.git
+- >>cd ATS-Resume-Expert
